@@ -1,7 +1,29 @@
 'use client';
 
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 import { registrationInfo } from '../../../data/registration';
+
+const parseLinksInText = (text: string): ReactNode => {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  const parts = text.split(urlRegex);
+
+  return parts.map((part, index) => {
+    if (urlRegex.test(part)) {
+      return (
+        <a
+          key={index}
+          href={part}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-black underline underline-offset-2 hover:no-underline font-semibold"
+        >
+          {part}
+        </a>
+      );
+    }
+    return part;
+  });
+};
 
 const RegistrationSection: FC = () => {
   return (
@@ -23,7 +45,7 @@ const RegistrationSection: FC = () => {
                   <span className="w-5 h-5 rounded-full bg-gray-200 text-gray-600 text-xs font-semibold flex items-center justify-center shrink-0 mt-0.5">
                     {index + 1}
                   </span>
-                  <span className="text-sm text-gray-600 leading-relaxed">{req}</span>
+                  <span className="text-sm text-gray-600 leading-relaxed">{parseLinksInText(req)}</span>
                 </li>
               ))}
             </ul>
@@ -54,11 +76,12 @@ const RegistrationSection: FC = () => {
               </div>
 
               <a
-                href={`https://forms.gle/eLQZM7pnxagKGUaa9`}
-                target='_blank'
+                href="https://registration.panafricanio.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-full px-6 py-3 bg-black text-white text-sm font-semibold rounded-full hover:bg-gray-800 transition-colors duration-200"
               >
-                Register Your Delegation
+                Complete Registration
               </a>
             </div>
           </div>

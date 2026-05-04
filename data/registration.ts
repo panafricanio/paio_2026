@@ -6,6 +6,8 @@ export const registrationInfo: RegistrationInfo = {
   teamSize: { min: 1, max: 6 },
   requirements: [
     'Official registration must be submitted by the national Informatics Olympiad Representative or Team Leader.',
+    'Pre-register your delegation using this form: https://forms.gle/eLQZM7pnxagKGUaa9',
+    'Upon pre-registration, login credentials will be sent via email. Use these to complete full registration at https://registration.panafricanio.com/',
     'Each delegation may include up to 6 contestants (at most 3 boys and 3 girls) and 2 team leaders.',
     'Contestants must be under 20 years of age and enrolled in secondary education.',
     'A valid passport is required for all delegates.',
