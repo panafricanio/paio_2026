@@ -54,7 +54,7 @@ const Footer: FC = () => {
             <ul className="space-y-2.5">
               {/* <li><a href="" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">Twitter</a></li> */}
               <li><a target='_blank' href="https://www.linkedin.com/company/pan-african-informatics-olympiad/" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">LinkedIn</a></li>
-              <li><a target='_blank' href="https://github.com/panafricanio" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">GitHub</a></li>
+              <li><a target='_blank' href="https://github.com/pafricanio" className="text-sm text-gray-400 hover:text-white transition-colors duration-200">GitHub</a></li>
             </ul>
           </div>
         </div>
