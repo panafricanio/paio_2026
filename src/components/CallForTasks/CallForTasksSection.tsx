@@ -36,7 +36,7 @@ const CallForTasksSection: FC = () => {
               </div>
 
               <div className="mb-6">
-                <p className="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-2">Contact</p>
+                <p className="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-2">For further info contact</p>
                 <a
                   href={`mailto:${callForTasks.contactEmail}`}
                   className="text-sm text-white underline underline-offset-4 hover:no-underline"
@@ -46,7 +46,9 @@ const CallForTasksSection: FC = () => {
               </div>
 
               <a
-                href={`mailto:${callForTasks.contactEmail}?subject=PAIO 2026 Task Submission`}
+                href="https://forms.gle/474deaUCNCaV94mXA"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-full px-6 py-3 bg-white text-black text-sm font-semibold rounded-full hover:bg-gray-200 transition-colors duration-200"
               >
                 Submit a Task Proposal

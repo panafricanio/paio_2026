@@ -5,10 +5,8 @@ export const callForTasks: CallForTasks = {
   deadline: 'June 15, 2026',
   guidelines: [
     'Tasks must be original and not used in any previous competition.',
-    'Each submission must include a problem statement, solution, test data, and time/memory limits.',
+    'Each submission include a problem statement and solution tutorial.',
     'Tasks should be solvable using C, C++, Java, or Python within the given constraints.',
-    'Difficulty should range from accessible (for partial scoring) to challenging (for full marks).',
-    'Topics may include algorithms, data structures, graph theory, dynamic programming, combinatorics, and computational geometry.',
     'Submissions are reviewed by the Scientific Committee. Selected authors will be credited.',
   ],
   contactEmail: 'tasks@panafricanio.com',
