@@ -8,7 +8,7 @@ export const competitionFormat: CompetitionFormat = {
       date: 'July 25',
       duration: '5 hours',
       description: 'Contestants tackle three algorithmic problems testing their knowledge of data structures and algorithms. Problems cover fundamental techniques and mathematical reasoning with increasing difficulty.',
-      taskCount: 3,
+      taskCount: 4,
     },
     {
       id: 'day-2',
@@ -16,7 +16,7 @@ export const competitionFormat: CompetitionFormat = {
       date: 'July 27',
       duration: '5 hours',
       description: 'Contestants tackle three algorithmic problems testing their knowledge of data structures and algorithms. Problems cover advanced techniques including optimization, graph theory, and dynamic programming.',
-      taskCount: 3,
+      taskCount: 4,
     },
   ],
   rules: [
