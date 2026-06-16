@@ -7,7 +7,7 @@ export const competitionFormat: CompetitionFormat = {
       name: 'Day 1',
       date: 'July 25',
       duration: '5 hours',
-      description: 'Contestants tackle three algorithmic problems testing their knowledge of data structures and algorithms. Problems cover fundamental techniques and mathematical reasoning with increasing difficulty.',
+      description: 'Contestants tackle three algorithmic problems following the IOI syllabus, testing their knowledge of data structures and algorithms. Problems cover fundamental techniques and mathematical reasoning with increasing difficulty.',
       taskCount: 4,
     },
     {
@@ -15,7 +15,7 @@ export const competitionFormat: CompetitionFormat = {
       name: 'Day 2',
       date: 'July 27',
       duration: '5 hours',
-      description: 'Contestants tackle three algorithmic problems testing their knowledge of data structures and algorithms. Problems cover advanced techniques including optimization, graph theory, and dynamic programming.',
+      description: 'Contestants tackle three algorithmic problems following the IOI syllabus, testing their knowledge of data structures and algorithms. Problems cover advanced techniques including optimization, graph theory, dynamic programming, etc.',
       taskCount: 4,
     },
   ],
