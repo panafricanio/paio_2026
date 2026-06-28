@@ -28,7 +28,7 @@ export const competitionFormat: CompetitionFormat = {
     {
       id: 'rule-scoring',
       title: 'Scoring System',
-      description: 'Each task is worth 100 points. Partial scoring is awarded based on the number of test cases passed. The total maximum score is 600 points.',
+      description: 'Each task is worth 100 points. Partial scoring is awarded based on the number of test cases passed. The total maximum score is 800 points.',
     },
     {
       id: 'rule-environment',
