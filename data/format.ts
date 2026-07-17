@@ -41,6 +41,11 @@ export const competitionFormat: CompetitionFormat = {
       description: 'Contestants must work independently during competition days. Any form of communication with others or use of unauthorized materials results in disqualification.',
     },
     {
+      id: 'rule-online-room',
+      title: 'Online Participation',
+      description: 'Contestants who will participate online must all be in one room with their team leader during the competition.',
+    },
+    {
       id: 'rule-appeals',
       title: 'Appeals Process',
       description: 'Team leaders may submit appeals within two hours of results publication. The scientific committee reviews all appeals and their decisions are final.',
