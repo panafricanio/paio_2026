@@ -64,7 +64,7 @@ export const agendaDays: AgendaDay[] = [
       { time: '07:00', title: 'Breakfast', type: 'break' },
       { time: '09:00', title: 'Contest Day 2 (Students) - GA 6', type: 'competition' },
       { time: '14:00', title: 'Lunch', type: 'break' },
-      { time: '15:00', title: 'Partners Engagement', type: 'social' },
+      { time: '15:00', title: 'AOA Talent Connect 2026', type: 'social' },
       { time: '19:00', title: 'Dinner', type: 'social' },
     ],
   },
