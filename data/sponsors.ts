@@ -29,13 +29,6 @@ export const sponsors: Sponsor[] = [
     logoUrl: '/sponsors/gtf.png',
     website: 'https://www.globtalent.org/',
   },
-  // {
-  //   id: 'aims',
-  //   name: 'AIMS (African Institute of Mathematical Science)',
-  //   tier: 'gold',
-  //   logoUrl: '/sponsors/aims.png',
-  //   website: 'https://aims.ac.rw',
-  // },
 ];
 
 export const sponsorTiers = [
