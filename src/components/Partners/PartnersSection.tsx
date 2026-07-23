@@ -1,11 +1,9 @@
 'use client';
 
 import { FC } from 'react';
-import Image from 'next/image';
 import { partners } from '../../../data/partners';
 
 const PartnersSection: FC = () => {
-  console.log("partners: ", partners);
   return (
     <section id="partners" className="w-full bg-gray-50 section-spacing">
       <div className="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12">
@@ -24,10 +22,8 @@ const PartnersSection: FC = () => {
             >
               {partner.logoUrl ? (
                 <img
-                  src={'/sponsors/minict.png'}
+                  src={partner.logoUrl}
                   alt={partner.name}
-                  // width={160}
-                  // height={80}
                   className="max-w-full h-auto object-contain"
                 />
               ) : (

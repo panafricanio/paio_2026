@@ -5,7 +5,7 @@ import TimelineSection from '@/components/Timeline/TimelineSection';
 import FormatSection from '@/components/Format/FormatSection';
 import VenueSection from '@/components/Venue/VenueSection';
 import SponsorsSection from '@/components/Sponsors/SponsorsSection';
-import PartnersSection from '@/components/Partners/Partners';
+import PartnersSection from '@/components/Partners/PartnersSection';
 import CallForTasksSection from '@/components/CallForTasks/CallForTasksSection';
 import RegistrationSection from '@/components/Registration/RegistrationSection';
 import Footer from '@/components/Layout/Footer';
