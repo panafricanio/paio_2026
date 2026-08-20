@@ -12,5 +12,6 @@ export const NAVIGATION_ITEMS = [
   { label: 'Register', href: '/#registration' },
   { label: 'Travel & Visa', href: '/travel' },
   { label: 'Agenda', href: '/agenda' },
+  { label: 'Gallery', href: 'https://app.somapix.com/photos/NzVXmV8X201AfTBiedGT?code=EVLGCM' },
 ];
 
