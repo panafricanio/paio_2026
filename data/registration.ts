@@ -10,7 +10,7 @@ export const registrationInfo: RegistrationInfo = {
     'Upon pre-registration, login credentials will be sent via email. Use these to complete full registration at https://registration.panafricanio.com/',
     'Each delegation may include up to 6 contestants (at most 3 boys and 3 girls) and 2 team leaders.',
     'Contestants must be under 20 years of age and enrolled in secondary education.',
-    'A valid passport is required for all delegates.',
+    'A valid passport is required for all in-person delegates.',
     'Delegations must confirm participation and submit contestant details by the registration deadline.',
     'Accommodation and local transport will be arranged by the organizing committee upon registration.',
   ],
